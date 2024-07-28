@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0px;
+}
+.Header {
+  height: 80px;
+  text-align: center;
+  backdrop-filter: blur(25px);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+  margin-right: 25px;
+}
+span {
+  color: aqua;
+}
+.action {
+  display: flex;
+  margin: 5px;
+  gap: 10px;
+}
+.act {
+  color: aqua;
+  font-size: 22px;
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid aqua;
+}
+.act:hover {
+  color: white;
+  border: 2px solid white;
+  transition: 0.25s ease-in-out;
+}

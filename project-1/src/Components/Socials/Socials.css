@@ -1,0 +1,20 @@
+.socials {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #fff; */
+}
+
+.soc {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  padding: 15px;
+}
+
+.soc:hover {
+  color: aqua;
+  transition: 0.5s ease-in-out;
+  filter: drop-shadow(3px 3px 3px black);
+}

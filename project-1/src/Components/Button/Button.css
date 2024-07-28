@@ -1,0 +1,16 @@
+.btn {
+  color: #242424;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 12px;
+  font-size: 22px;
+  background-color: aqua;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  outline: 2px solid white;
+  color: aqua;
+  transition: 0.5s ease;
+}

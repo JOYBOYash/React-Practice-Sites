@@ -1,0 +1,24 @@
+#home {
+  background-color: rgba(0, 0, 0, 1);
+  margin: 150px;
+  padding: 30px;
+  border-radius: 150px;
+  outline: 5px solid white;
+  color: #fff;
+  display: flex;
+}
+.image {
+  /* background-color: aqua; */
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  width: 600px;
+  margin: 30px;
+}
+.profile {
+  width: 400px;
+  margin: 60px;
+  align-self: center;
+  border-radius: 500px;
+}

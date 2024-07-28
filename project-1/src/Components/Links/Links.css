@@ -1,0 +1,27 @@
+.links {
+  text-align: center;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 22px;
+  color: aqua;
+  animation-name: Fade;
+  animation-duration: 2s;
+  font-weight: 900px;
+}
+.link:hover {
+  color: #fff;
+
+  transition: 0.25s ease-in-out;
+}
+
+@keyframes Fade {
+  from {
+    transform: opacity(0);
+  }
+  to {
+    transform: opacity(100);
+  }
+}

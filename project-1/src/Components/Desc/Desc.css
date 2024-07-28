@@ -1,0 +1,25 @@
+.description {
+  /* background-color: firebrick; */
+  margin: 30px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 50px;
+}
+.h1,
+.h2,
+.h3 {
+  text-align: left;
+  line-height: 50px;
+  cursor: default;
+}
+.span {
+  color: aqua;
+}
+.block {
+  color: aliceblue;
+  /* background-color: #fff; */
+  opacity: 1;
+  filter: drop-shadow(3px 0px 1px white);
+  width: 40px;
+}
